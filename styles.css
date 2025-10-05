@@ -1,0 +1,42 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+ }
+ body {
+    background-color:  hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ .qr-card {
+    width: 500px;
+    /* height: 400px; */
+    background-color: white;
+    border-radius: 16px;
+    padding: 16px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ h1, p {
+    text-align: center;
+    width: 80%;
+ }
+ h1 {
+    margin-bottom: 16px;
+    color: hsl(218, 44%, 22%);
+ }
+ img {
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 20px;
+ }
+ p {
+    margin-bottom: 25px;
+    font-size: 22px;
+    color:  hsl(216, 15%, 48%);
+ }
